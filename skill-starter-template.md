@@ -49,8 +49,7 @@ map the same way everywhere:
     the skill's description; "What it should know," "What it should
     never do," and "What 'done' looks like" become its instructions.
 -   **ChatGPT:** build this as a Project's custom instructions, or a
-    Custom GPT if you want it shareable — same four sections, same
-    order.
+    Custom GPT — same four sections, same order. Skills available to Business, Enterprise, Healthcare, and Edu accounts.
 -   **Gemini:** build this as a Gem. Gems cap around 4,000 characters
     of instructions, so if your "What it should know" section runs
     long, keep the specific judgment calls and cut the general
