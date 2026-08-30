@@ -39,7 +39,7 @@ lesson: the bigger lever was never the wording of the ask — it's
 telling the agent what you're actually trying to accomplish and how
 you'd break it down yourself.
 
-## Test 3 — The chief-of-staff test (the capstone)
+## Test 3 — The chief-of-staff test (the result)
 
 This is the one to run once you've built a real skill and connected a
 real tool.
