@@ -1,13 +1,20 @@
 # Connecting a Real Tool — One-Page Primer
 
-A skill gives an agent your knowledge. A connector gives it your
-tools. Without one, it can only ever tell you what to do. With one, it
-can actually do it — read the real email, see the real thread, take
-the real action.
+An agent contract gives an agent your knowledge and its boundaries. A
+connector gives it your tools. Without one, it can only ever tell you
+what to do. With one, it can actually do it — read the real email, see
+the real calendar, take the real action.
 
-That's a bigger step than building a skill, and it deserves one
+That's a bigger step than writing the contract, and it deserves one
 question before you take it: **not "can it reach this tool," but
 "what should it never do without asking me first."**
+
+## Calendar is a core source, not an example
+
+Commitments live in meetings as much as in email. If your agent only
+reads your inbox, it will miss half of what it's supposed to track —
+the promise made on a call, the deadline set in a meeting invite.
+Connect both from the start.
 
 ## Why draft-only is the right default
 
@@ -25,12 +32,17 @@ The same logic applies past email:
 -   A project-tracker connection can *suggest* a status update before
     it *posts* one.
 
-Before connecting anything, write down the equivalent boundary for
-your task — your answer to `worksheet.md` Question 4. Set that
-boundary in the tool itself where the tool allows it (many connectors
-let you scope permissions to read-only, draft-only, or specific
-folders/labels); where it doesn't, hold the line by habit until you've
-tested the skill enough to trust it further.
+## Write the scope boundary into the contract
+
+Before connecting anything, fill in Section 6 of `agent-contract.md` —
+how many days of email history, how many days back and forward on the
+calendar, and any folder or label to restrict to. A bounded agent
+produces something you can actually check; an agent pointed at
+everything doesn't. Set that boundary in the tool itself where it
+allows it (many connectors let you scope permissions to read-only,
+draft-only, or specific folders/labels); where it doesn't, hold the
+line by habit until you've tested the agent enough to trust it
+further.
 
 ## Where to find connector settings
 
