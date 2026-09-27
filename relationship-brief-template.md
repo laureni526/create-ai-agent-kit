@@ -26,6 +26,7 @@ line with one of four words:
 - **Misunderstood.** Right source, wrong reading.
 - **Over-inferred.** Presented a guess as a fact, or a suggestion as a
   commitment.
+- **Unsupported.** A conclusion with no evidence line. Treat it as an assumption.
 
 Every "misunderstood" and "over-inferred" is a candidate for a
 judgment rule in section 7 of your contract. That is how the agent
